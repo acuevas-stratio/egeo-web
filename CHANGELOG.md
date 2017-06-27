@@ -15,6 +15,7 @@
 * Update table component documentation
 * Fix some translations
 * Update st-page-title doc
+* Update st-radio-menu doc
 
 
 ## 1.3.0 (Abril 4, 2017)

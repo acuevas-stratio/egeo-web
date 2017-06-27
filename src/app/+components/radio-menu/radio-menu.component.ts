@@ -42,15 +42,21 @@ export class RadioMenuComponent {
                {
                   paramName: 'qaTag',
                   type: TYPES.STR,
-                  required: true,
+                  required: false,
                   details: 'Identifier to generate a qa tag for each option'
+               },
+               {
+                  paramName: 'theme',
+                  type: TYPES.STR,
+                  required: false,
+                  details: 'String representing the theme (css class) to be applied to the radio menu component. Possible values are theme-gray-1 / theme-gray-2'
                }
             ],
             outputs: [
                {
                   paramName: 'changedOption',
                   type: TYPES.OBJ,
-                  required: true,
+                  required: false,
                   details: 'Event emitted when the active option is changed. This event has the selected option as param.'
                }
             ]

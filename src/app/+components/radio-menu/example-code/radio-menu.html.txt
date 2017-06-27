@@ -1,5 +1,6 @@
 <st-radio-menu
    [activeOption]="selectedOptionTheme2"
    [options]="options"
+   theme="theme-gray-2"
    qaTag="radio-menu">
 </st-radio-menu>
